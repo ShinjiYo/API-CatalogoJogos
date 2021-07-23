@@ -68,7 +68,7 @@ namespace API_CatalogoJogos.Controllers.V1
         /// </summary>
         /// <param name="jogoInputModel">Dados do jogo a ser inserido</param>
         /// <response code="200">Caso o jogo seja inserido com sucesso</response>
-        /// <response code="422">Caso já exista um jogo com mesmo nome para a mesma produtora</response>   
+        /// <response code="422">Caso já exista um jogo repetido</response>   
 
 
         [HttpPost]
